@@ -33,6 +33,7 @@ class MainActivity : AppCompatActivity(), ControlListAdapter.ControlListHelper {
 		super.onCreate(savedInstanceState)
 		setContentView(R.layout.activity_main)
 		mqttController.begin(this)
+//		Need to ping server once.
 		
 		val adapter = ControlListAdapter()
 		adapter.helper = this
