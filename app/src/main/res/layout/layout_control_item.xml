@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<RelativeLayout
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="match_parent"
-	android:layout_height="match_parent"
+	android:layout_height="280dp"
 	android:foreground="?attr/selectableItemBackground"
+	android:padding="10dp"
 	>
-	
 	<ImageView
+		android:id="@+id/item_image"
 		android:layout_width="match_parent"
-		android:layout_height="match_parent"
-		android:src="@drawable/ic_bulb"
+		android:layout_height="230dp"
 		android:scaleType="centerInside"
 		/>
+	
+	<TextView
+		android:id="@+id/item_text"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:textAlignment="center"
+		android:layout_below="@id/item_image"
+		/>
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>

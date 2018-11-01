@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#fff">
+	
+	<!--<com.jjoe64.graphview.GraphView-->
+	<!--android:id="@+id/graphView"-->
+	<!--android:layout_width="match_parent"-->
+	<!--android:layout_height="match_parent"-->
+	<!--app:seriesData="0=5;2=5;3=0;4=2"-->
+	<!--app:seriesType="line"-->
+	<!--app:seriesColor="#f00"-->
+	<!--/>-->
+	
+	<TextView
+		android:id="@+id/sensorTitle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="30dp"
+		android:text="SENSORS"
+		android:textStyle="bold"
+		android:textAlignment="center"
+		android:textSize="24sp" />
+	
+	
+	<TextView
+		android:id="@+id/sensorText"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="10dp"
+		android:hint="Loading.."
+		android:textAlignment="center"
+		android:textSize="18sp"
+		android:layout_centerInParent="true"
+		/>
+		<!--android:textAllCaps="true"-->
+		<!--android:layout_below="@id/sensorTitle"-->
+	
+	<!--<android.support.design.widget.FloatingA-->
+
+</RelativeLayout>

@@ -1,3 +1,5 @@
 <resources>
 	<string name="app_name">Bruyant</string>
+	<string name="retry_login">Bad username/password combination. Please retry.</string>
+	<string name="success_login">Logging in.. Please wait.</string>
 </resources>
